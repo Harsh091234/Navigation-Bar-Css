@@ -1,0 +1,61 @@
+body{
+   
+    background: url("https://s.tmimgcdn.com/scr/400x250/266700/orange-hd-background-image-8000-pixels--4500-pixels_266758-original.jpg");
+    
+}
+
+ul{
+    z-index: 1;
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+    
+}
+#right{
+    float: right;
+}
+
+
+li a{
+    display: inline-block;
+    color: darkorange;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+
+li a:hover{
+    background-color: orange;
+    color: whitesmoke;
+}
+
+li.dropdown{
+    display: inline-block;
+  
+}
+
+.dropdown1,.dropdown2{
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    z-index: 1;
+}
+.dropdown2{
+    right: 8px;
+}
+
+.dropdown1  a,.dropdown2 a{
+    display: block;
+    background-color: rgb(80, 80, 80);
+    color: rgb(250, 181, 52);
+}   
+.dropdown:hover .dropdown1, .dropdown:hover .dropdown2{
+    display: block;
+}
